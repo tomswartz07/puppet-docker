@@ -15,4 +15,4 @@ RUN echo "gem: --no-rdoc --no-ri" >> /etc/gemrc
 RUN gem install puppet rspec rspec-puppet puppetlabs_spec_helper puppet-lint rspec-puppet-utils
 
 # Clone GitHub tests
-RUN git clone http://github.com/tomswartz07/puppet-git-hooks.git
+RUN git clone http://github.com/tomswartz07/puppet-git-hooks.git puppet-git-hooks
